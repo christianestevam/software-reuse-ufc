@@ -1,0 +1,36 @@
+# Ignorar artefatos de build
+/target/
+
+# Ignorar arquivos gerados por Cargo
+**/*.rs.bk
+Cargo.lock
+
+# Ignorar arquivos do editor e do sistema operacional
+# Arquivos do Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Arquivos do IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+
+# Arquivos do Linux/macOS
+*.DS_Store
+*.swp
+*.swo
+*.swn
+
+# Arquivos do Windows
+Thumbs.db
+desktop.ini
+
+# Ignorar dumps de logs
+*.log
+
+# Ignorar arquivos de execução local
+*.out
+*.exe
+*.dylib
+*.so
+*.dll
