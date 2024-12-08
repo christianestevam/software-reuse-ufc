@@ -1,8 +1,4 @@
-### **README: Proxy Seguro com Validação JWT**
-
----
-
-## **Descrição do Projeto**
+## **Descrição da Atividade**
 
 Este projeto implementa um sistema que utiliza o padrão de design **Proxy** para proteger o acesso a um serviço confidencial. Ele valida tokens JWT para autenticar e autorizar os usuários antes de permitir o acesso ao serviço real. As permissões são configuradas dinamicamente através de um arquivo de configuração YAML.
 
