@@ -1,0 +1,9 @@
+jwt:
+  secret: "senhaSuperSecreta"
+  issuer: "banco-digital"
+
+permissions:
+  - role: "admin"
+    access: ["ALL"]
+  - role: "user"
+    access: ["DOCUMENTS"]
